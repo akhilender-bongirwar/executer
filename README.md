@@ -30,7 +30,7 @@ docker run -e APP_ID=<app-id> -e PRIVATE_KEY=<pem-value> code-verifier
 
 - Allow all the permissions to the app which it requires.
 - Whenever you have an open pull request, You can test this app by following the below steps.
-- Go to the Files Changed tab.
+- Go to the Files Changed tab within the opened pull request window.
 - Select all the required which you want to execute.
 - Then there will be a comment box popping up, simply write the command "/execute".
 - This command will execute the selected code and return a new comment below it as an output.
